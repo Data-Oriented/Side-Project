@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    This is a Calculator
+</head>
+<body>
+   <form style="margin: 1%;">
+    Value 1: <input type="text" id="value1" style="margin-bottom: 1%;"><br>
+    Value 2: <input type="text" id="value2" style="margin-bottom: 1%;"><br>
+    Operator: 
+    <select id="operator" style="margin: bottom 1%;"><br>
+        <option value="add">Add</option>
+        <option value="min">Minus</option>
+        <option value="div">Divide</option>
+        <option value="mul">Multiply</option>
+    </select>
+    <button type="button" onclick="cal(alert(cal()))">Calculate</button>
+   </form>
+   
+
+   <!-- Link to external JavaScript file -->
+   <script src="main.js"></script>
+</body>
+</html>
